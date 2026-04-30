@@ -1,0 +1,37 @@
+# ROS2 / colcon build outputs
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# CMake / compile outputs
+*.o
+*.so
+*.a
+*.d
+CMakeCache.txt
+CMakeFiles/
+
+# Logs
+*.log
+
+# Large model/checkpoint files
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Misc
+.DS_Store
+
+# External repositories
+fmt/
+src/franka_description/
+src/franka_ros2/
+src/olvx_descriptions_module/
