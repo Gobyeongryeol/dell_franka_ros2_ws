@@ -31,7 +31,5 @@ CMakeFiles/
 .DS_Store
 
 # External repositories
-fmt/
-src/franka_description/
-src/franka_ros2/
-src/olvx_descriptions_module/
+
+# External repositories
