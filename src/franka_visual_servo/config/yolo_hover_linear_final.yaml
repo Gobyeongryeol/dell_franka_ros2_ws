@@ -1,0 +1,20 @@
+yolo_hover_linear_node:
+  ros__parameters:
+    dry_run: false
+    once: true
+    move_to_ready_first: true
+    ready_wait_sec: 1.0
+
+    safe_z: 0.45
+    hover_z: 0.04
+    use_fixed_orientation: false
+
+    use_target_linear_offset: true
+
+    x_offset_kx: -1.7065
+    x_offset_ky: -0.7270
+    x_offset_b: 0.6083
+
+    y_offset_kx: 0.5040
+    y_offset_ky: -1.7534
+    y_offset_b: -0.1816

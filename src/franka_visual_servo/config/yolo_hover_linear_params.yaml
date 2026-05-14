@@ -1,0 +1,39 @@
+yolo_hover_linear_node:
+  ros__parameters:
+    # Motion parameters (manually calibrated)
+    dry_run: false
+    once: true
+    safe_z: 0.45
+    hover_z: 0.04
+    x_offset: 0.24
+    y_offset: 0.005
+    use_fixed_orientation: false
+
+    # Cartesian path tuning
+    eef_step: 0.005
+    jump_threshold: 0.0
+    min_fraction: 0.95
+    velocity_scale: 0.05
+    acceleration_scale: 0.05
+
+    # MoveGroup settings
+    target_topic: "/yolo/target_base"
+    planning_group: "fr3_arm"
+    eef_link: "fr3_hand_tcp"
+
+    # Fixed orientation (used only when use_fixed_orientation: true)
+    fixed_qx: 1.0
+    fixed_qy: 0.0
+    fixed_qz: 0.0
+    fixed_qw: 0.0
+
+    # Ready/start pose (joint-space, executed once at startup)
+    move_to_ready_first: true
+    ready_wait_sec: 1.0
+    ready_joint1: 0.0
+    ready_joint2: -0.785
+    ready_joint3: 0.0
+    ready_joint4: -2.356
+    ready_joint5: 0.0
+    ready_joint6: 1.571
+    ready_joint7: 0.785

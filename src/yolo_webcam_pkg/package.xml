@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>yolo_webcam_pkg</name>
+  <version>0.0.1</version>
+  <description>Webcam YOLO pipeline for ROS2</description>
+
+  <maintainer email="lab@todo.com">lab</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
