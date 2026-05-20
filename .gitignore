@@ -30,3 +30,24 @@ debug_images/
 .venv/
 venv/
 .DS_Store
+
+# local secrets
+.env
+**/.env
+
+# ROS2 build outputs
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# large ML / ROS bag artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.bag
+*.db3
